@@ -107,7 +107,7 @@ p {
 
 /* футер */
 .footer-style {
-  height: 252px;
+  /* height: 252px; */
   background: #2f303a;
 }
 .footer-location {
