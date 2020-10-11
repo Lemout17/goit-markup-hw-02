@@ -26,7 +26,7 @@ p {
 .page-header {
   background-color: #ffffff;
 }
-.page-header a {
+.nav-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -34,11 +34,11 @@ p {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.page-header a:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #2196f3;
 }
-.phone-number {
-  font-family: Roboto;
+.address-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -46,7 +46,8 @@ p {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.phone-number:hover {
+.address-link:hover,
+.address-link:focus {
   color: #2196f3;
 }
 .logo-wbstudio {
@@ -167,6 +168,7 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-contact:hover {
+.footer-contact:hover,
+.footer-contact:focus {
   color: #2196f3;
 }
