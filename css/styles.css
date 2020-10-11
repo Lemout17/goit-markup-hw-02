@@ -1,6 +1,16 @@
-.main-page-body {
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет ссылок футера rgba(255, 255, 255, 0.6) */
+/* цвет заголовка первого уровня #FFFFFF */
+/* цвет акцента #2196F3 */
+/* цвет бекграунда #FFFFFF */
+/* цвет бекграунда секции "герой" #2F303A */
+/* цвет бекграунда секции 'наша команда' #F5F4FA */
+
+/* -------------------------------------------------- */
+body {
   font-family: 'Roboto', sans-serif;
-  background: #e5e5e5;
+  background: #ffffff;
   width: 1600;
 }
 a {
@@ -104,12 +114,6 @@ p {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.features-style {
-  background: #ffffff;
-}
-.example-style {
-  background: #ffffff;
-}
 .example-title {
   font-family: Roboto;
   font-style: normal;
@@ -119,6 +123,9 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.team-style {
+  background: #f5f4fa;
 }
 .team-title {
   font-style: normal;
@@ -148,11 +155,7 @@ p {
   color: #757575;
 }
 /* контент страницы портфолио */
-.port-page-body {
-  font-family: 'Roboto', sans-serif;
-  background: #ffffff;
-  width: 1600;
-}
+
 .port-filter {
   border-top: 1px solid #ececec;
 }
@@ -172,12 +175,12 @@ p {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.port-content li {
+/* .port-content li {
   height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-}
+} */
 .button-style {
   font-style: normal;
   font-weight: 500;
