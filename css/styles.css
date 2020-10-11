@@ -35,6 +35,7 @@ p {
 /* хеадер */
 .page-header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
 .nav-link {
   font-style: normal;
@@ -156,9 +157,6 @@ p {
 }
 /* контент страницы портфолио */
 
-.port-filter {
-  border-top: 1px solid #ececec;
-}
 .port-title {
   font-style: normal;
   font-weight: bold;
