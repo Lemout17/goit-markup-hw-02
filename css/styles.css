@@ -37,6 +37,9 @@ p {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
+.site-nav .nav-link.current {
+  color: #2196f3;
+}
 .nav-link {
   font-style: normal;
   font-weight: 500;
