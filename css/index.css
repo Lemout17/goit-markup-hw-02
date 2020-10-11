@@ -61,7 +61,7 @@ p {
 .hero-style {
   background-color: #2f303a;
 }
-.hero-title {
+.hero-style h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -86,7 +86,7 @@ p {
   border-color: transparent;
   cursor: pointer;
 }
-.features-text > h2 {
+.features-text h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -95,7 +95,7 @@ p {
   text-transform: uppercase;
   color: #212121;
 }
-.features-text > p {
+.features-text p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -109,7 +109,7 @@ p {
 .example-style {
   background: rgba(255, 255, 255, 1);
 }
-.example-style > h2 {
+.example-style h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -119,7 +119,7 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-style > h2 {
+.team-style h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
