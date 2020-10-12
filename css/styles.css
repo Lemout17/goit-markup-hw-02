@@ -8,10 +8,14 @@
 /* цвет бекграунда секции 'наша команда' #F5F4FA */
 
 /* -------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
-  width: 1600;
 }
 a {
   text-decoration: none;
